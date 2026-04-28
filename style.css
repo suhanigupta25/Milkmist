@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin:0;
+    color: white;
+    
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(75, 161, 75, 0.799);
+    display: flex;
+    align-items: center;
+}
+/*
+.select_box{
+    margin-left: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    color:black;
+}*/
+
+
+.logo{
+    width: 120px;
+    height: 60px;
+    background-image: url("/photo/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    
+}
+
+
+.brand_name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #18392B;
+    margin-left: 0rem;
+    margin-right: 4rem;
+
+}
+.search_box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search_box i {
+    position: absolute;
+    left: 12px;
+    color: #6b7280;
+    font-size: 14px;
+    pointer-events: none; /* click goes to input */
+}
+
+.search_box input {
+    width: 300px;
+    height: 2.5rem;
+    padding: 2px 12px 2px 36px; /* space for icon */
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.search_box input:focus {
+    outline: none;
+    border-color: #18392B;
+    box-shadow: 0 0 0 3px rgba(24, 57, 43, 0.15);
+}
+
+
+button.cart,
+button.account {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: 2rem;
+    padding: 8px 18px;
+
+    background-color: #18392B;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 6px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+button.cart:hover,
+button.account:hover {
+    background-color: #10261d;
+    box-shadow: 0 4px 12px rgba(24, 57, 43, 0.35);
+}
+
+
+.banner{
+    width: 100%;
+    height: 35rem;
+    background-color: #28877f;
+    background-image: url("/photo/d2.png");
+    background-size: cover;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+
+.milk,.butter,.egg,.icecream,.curd,.cheese{
+    width: 250px;
+    height: 300px;
+    background-color: #03381f;
+    border: #18392B solid 2px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.milk:hover,.butter:hover,.egg:hover,.icecream:hover,.curd:hover,.cheese:hover{
+    box-shadow: 0 0 10px 2px #18392B;
+    border: whitesmoke solid 2px;
+    transform: scale(1.15);
+    transition: all 0.3s ease-in-out;
+}
+.about{
+    width: 100%;
+    height: 300px;
+    background-color: #18392B;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.details{
+    width: 100%;
+    border-top: 2px solid white;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    background-color: #18392B;
+    color: white;
+    text-align: center;
+    display: flex;
+    
+}
+.contact_info,.social_media,.categories_list{
+    width: 33%;
+    height: 270px;
+}
+
+footer{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+    position: fixed;
+    bottom: 0;
+}

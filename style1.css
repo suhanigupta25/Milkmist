@@ -1,0 +1,155 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login_container {
+    width: 750px;
+    height: 420px;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.login_left {
+    flex: 1;
+    background: linear-gradient(135deg, #18392B, #2e8b57);
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login_left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login_left p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* RIGHT SIDE */
+.login_right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.login_right form {
+    width: 100%;
+}
+
+/* Text */
+p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #18392B;
+}
+
+/* Button */
+button {
+    width: 100%;
+    background-color: #18392B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0f241b;
+    box-shadow: 0 6px 15px rgba(24, 57, 43, 0.4);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 13px;
+    color: #999;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+}
+
+.divider span {
+    padding: 0 10px;
+}
+
+/* Google Button */
+.google_btn {
+    background: white;
+    color: #444;
+    border: 1px solid #ddd;
+}
+
+.google_btn i {
+    color: rgb(81, 120, 5);
+}
+
+.google_btn:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+
+.forgot_password {
+    text-align: right;
+    margin-top: 8px;
+}
+
+.forgot_password a {
+    font-size: 13px;
+    color: #18392B;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.forgot_password a:hover {
+    text-decoration: underline;
+}
